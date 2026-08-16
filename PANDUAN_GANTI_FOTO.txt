@@ -1,0 +1,46 @@
+═══════════════════════════════════════════════════════════════
+PANDUAN MENGGANTI FOTO HERO (BAGIAN ATAS)
+═══════════════════════════════════════════════════════════════
+
+Bagian awal website sekarang menggunakan sistem foto yang bisa diganti dengan mudah.
+
+CARA MENGGANTI FOTO:
+═══════════════════
+
+1. SIAPKAN FOTO ANDA
+   - Pastikan foto sudah dalam format JPG, PNG, atau GIF
+   - Ukuran optimal: 600x600px atau lebih (square ratio lebih bagus)
+   - File size: tidak lebih dari 2MB untuk loading cepat
+
+2. UPLOAD FOTO
+   - Copy file foto Anda ke folder: assets/images/
+   - Beri nama file: hero-photo.jpg (atau .png, .gif)
+   
+   Contoh path lengkap:
+   c:\xampp\htdocs\panyuu\assets\images\hero-photo.jpg
+
+3. PROSES SELESAI!
+   - Refresh website/halaman browser
+   - Foto Anda akan otomatis tampil di bagian atas
+
+TROUBLESHOOT:
+═════════════
+
+Jika foto tidak muncul:
+- Pastikan nama file TEPAT: hero-photo.jpg (sesuaikan ekstensi)
+- Pastikan file berada di folder: assets/images/
+- Coba clear browser cache (Ctrl + Shift + Delete)
+- Pastikan file size tidak terlalu besar
+
+MENGUBAH TEXT:
+═══════════════
+
+Untuk mengubah text di atas:
+1. Edit file: index.php
+2. Cari section "HERO" di bagian atas
+3. Ubah text yang ingin diubah:
+   - "when u love someone son" → Ubah subtitle
+   - "Happy Birthday My" → Ubah judul utama
+   - Text lainnya sesuai kebutuhan
+
+═══════════════════════════════════════════════════════════════
